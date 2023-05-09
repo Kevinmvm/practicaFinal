@@ -32,7 +32,7 @@ function EditObjectivek() {
   return (
     <form onSubmit={handleSubmit}>
       <div>
-        <label htmlFor="name">Nombre:</label>
+        <label htmlFor="name">Tarea:</label>
         <input
           type="text"
           name="name"
@@ -58,7 +58,7 @@ function EditObjectivek() {
           onChange={handleInputChange}
         />
       </div>
-
+      Horas por dia:
       <div>
         <label htmlFor="mondayHours">Lunes:</label>
         <input

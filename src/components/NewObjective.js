@@ -43,22 +43,22 @@ function NewObjective() {
   return (
     <form onSubmit={handleSubmit}>
       <label>
-        name:
+        Tarea:
         <input type="text" value={name} onChange={(e) => setName(e.target.value)} />
       </label>
       <br />
       <label>
-        Start date:
+        Fecha de Inicio:
         <input type="date" value={startDate} onChange={(e) => setStartDate(e.target.value)} />
       </label>
       <br />
       <label>
-        Total hours:
+        Horas Totales:
         <input type="number" value={totalHours} onChange={(e) => setTotalHours(Number(e.target.value))} />
       </label>
       <br />
       <label>
-        Horas por dia
+        Horas por dia:
         <br />
         Lunes: <input type="number" value={mondayHours} onChange={(e) => setMondayHours(Number(e.target.value))} />
         <br />
@@ -75,7 +75,7 @@ function NewObjective() {
         Domingo: <input type="number" value={sundayHours} onChange={(e) => setSundayHours(Number(e.target.value))} />
       </label>
       <br />
-      <button type="submit" >Crear Objetivo</button>
+      <button type="submit" >Crear Tarea</button>
     </form>
   );
 }

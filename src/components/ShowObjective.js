@@ -28,6 +28,7 @@ function ShowObjective() {
             <p>Tarea: {task.name}</p>
             <p>Fecha de inicio: {task.startDate}</p>
             <p>Horas Totales: {task.totalHours}</p>
+            <p>Horas por Dia:</p>
             <p>Lunes: {task.mondayHours}</p>
             <p>Martes: {task.tuesdayHours}</p>
             <p>Miercoles: {task.wednesdayHours}</p>

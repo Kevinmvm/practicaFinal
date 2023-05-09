@@ -15,7 +15,7 @@ function DeleteObjective (){
       localStorage.setItem('tasks', JSON.stringify(nuevasTareas));
       window.location.href = "/";
     }
-    alert('Objetivo eliminado')
+    alert('Tarea eliminada')
   }, [task, tasks, id]);
 
 };
